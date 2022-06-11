@@ -1,0 +1,187 @@
+
+.header{
+    color: white;
+    background-color: #122a57;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-menu{
+    display: flex;
+    align-items: center;
+}
+
+.top-menu li{
+    list-style-type: none;
+}
+
+.top-menu li a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-content h1{
+    margin: 0;
+}
+
+.main-content p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.text-color{
+    color: #122a57;
+}
+
+.a-button{
+    background-color: #122a57;
+    color:white;
+    padding: 6px 28px;
+    border-radius: 130px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.quem-somos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.servicos{
+    background-color: #122a57;
+    padding: 50px 150px;
+    color: white;
+}
+
+.servicos h2{
+    margin-bottom: 60px;
+    margin-top: 0;
+    font-size: 35px;
+}
+
+.servicos-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicos-content img{
+    width: 150px;
+}
+
+.servico-content-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servico-content-item p{
+    font-weight: bold;
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+.servico-content-item a{
+    background-color: white;
+    color: #122a57;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 8px 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.o1{
+    order: 1;
+}
+
+.o2{
+    order: 2;
+}
+
+.o3{
+    order: 3;
+}
+
+.planos{
+    padding: 50px 150px;
+}
+
+.planos-content{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.planos-content div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 4px solid #122a57;
+    padding: 20px;
+    min-width: 150px;
+}
+
+.planos-content h3{
+    border-bottom: 2px solid #122a57;
+    min-width: 150px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+
+.planos-content ul{
+    padding-left: 20px;
+    align-self: flex-start;
+    list-style-type: square;
+    color: #122a57;
+
+}
+
+.planos-content ul span{
+    color: black;
+    margin-left: 7px;
+    font-size: 14px;
+}
+
+.plano-1{
+    min-height: 200px;
+}
+
+.plano-2{
+    min-height: 250px;
+}
+
+.plano-3{
+    min-height: 300px;
+}
+
+.plano-button{
+    background-color: #122a57;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 6px 30px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #122a57;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    align-items: flex-end;
+    padding: 5px 100px;
+    min-height: 60px;
+}
