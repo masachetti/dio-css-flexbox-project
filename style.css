@@ -1,7 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
 
-.body{
-    margin: 0 auto;
-    width: 70%;
+div img{
+    display: block;
+    width: 100%;
+}
+
+header{
+    height: 100px;
 }
 
 .default-flex-box{
@@ -9,6 +18,8 @@
     justify-content: space-between;
     padding: 0 80px;
     align-items: center;
+    margin: auto;
+    /* max-width: 992px; */
 }
 
 .colored-background{
@@ -23,13 +34,18 @@
 .button{
     background-color: #122a57;
     color:white;
-    padding: 6px 28px;
+    text-align: center;
+    display: block;
+    height: 50px;
+    width: 220px;
+    line-height: 50px;
     border-radius: 30px;
-    margin: 5px;
+    margin: 10px 0px;
     text-decoration: none;
 }
 
 .top-menu{
+    max-width: 260px;
     display: flex;
     align-items: center;
 }
@@ -40,44 +56,52 @@
 
 .top-menu li a{
     text-decoration: none;
+    font-weight: bold;
     color: white;
     margin: 10px;
     font-size: 14px;
 }
 
 .main-content{
-    margin: 40px 0px 0px 40px;
+    height: 90vh;
+}
+
+.main-content .main-content-text{
+    min-height: 200px;
 }
 
 .main-content h1{
     margin: 0;
+    font-size: 48px;
 }
 
 .main-content p{
     margin-top: 10px;
-    margin-bottom: 30px;
-}
-
-.main-content img{
-    width: 25em;
-}
-
-.quem-somos{
-    margin: 70px 0;
-}
-
-.quem-somos img{
-    width: 20em;
 }
 
 .quem-somos h2{
-    border-left: 4px solid #122a57;
-    padding-left: 5px;
+    font-size: 32px;
+    color: #122a57;
+    display: flex;
+    margin-bottom: 20px;
 }
 
-.quem-somos-text{
-    margin-left: 80px;
-    color: #122a57;
+.quem-somos h2::before{
+    content: "";
+    height: 50px;
+    width: 5px;
+    margin-right: 5px;
+    background-color: #122a57;
+    position: relative;
+}
+
+.quem-somos-text p{
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.quem-somos img{
+    min-width: 420px;
 }
 
 .servicos{
